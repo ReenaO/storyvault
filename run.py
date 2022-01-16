@@ -1,3 +1,8 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+noun = ['Mountain', 'Ocean', 'Building', 'Playground', 'Animal']
+adjectives = ['Running', 'Walking', 'Cycling', 'Sleeping', 'Eating']
+people = ['Mother', 'Father', 'Sister', 'Brother', 'Friend', 'Husband']
+places = ['Farm', 'Beach', 'Work', 'School', 'City']
+weather = ['Sunny', 'Raining', 'Sleat', 'Windy', 'Snow', 'Stormy']
+animals = ['Dog', 'Cat', 'Goldfish', 'Hamster']
+birds = ['Robin', 'Blackbird', 'Crow', 'Goldfinch']
+proverb = ["Every cloud has a silver lining", "No news is good news"]
