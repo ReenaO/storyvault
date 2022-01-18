@@ -1,10 +1,28 @@
-1. welcome
-2. cinema
-3. zoo
-4. flower
-5. chocolate
-6. kite
-7. goodbye
+welcome class:
+#insert name :
+
+ def welcome 
+
+   print(  \\            //            |                                     )
+   print(   \\          //             |                                     )
+   print(    \\        //     ____     |     ___    ___          ___         )   
+   print(     \\  /\  //     |    |    |    |      |   |  |\/|  |   |        )
+   print(      \\//\\//      |____|    |    |      |   |  |  |  |___|        )
+   print(       \/  \/       |____     |    |___   |___|  |  |  |___         )
+
+
+ #cinema class:
+ ####{people}, {animals} and i went to drive in cinema at {places}. we could see {noun} in the distance and the {WEATHER} there. A {bird} spend the entire film flying in front of {Color} screen. when film was over proverb appearered on screen and i woke up.
+ #zoo class:
+ ####I went to the zoo with {people} and animals. we were {adjective} by tiger habitat in the {color}{weather}. {bird} were flying around our heads.it was an enjoyable day.the announcer on intercom said {proverb} then i woke up.
+ #flower class:
+ #### I was {adjective} by flowers in the {place}. the flowers were {color} and had a lovely scent. a bird flew past  in the direction of the {noun} singing {proverb} and i woke up.
+ #chocolate class:
+ #####i was {adjective} and had chilli flavoured chocolate bar with {people}. We were at {place} and overlooking {noun}. The {color}{weather} was amazing. the chocolate wrapper had {proverb} written on it and i woke up.
+ #kite class:
+ #### myself and{animal} were flying a {color} kite at beach when a {bird} flew into it causing it to fall to ground next to {people} writing proverb in the sand it was all a dream.
+ #goodbye class:
+
 
 noun = ['Mountain', 'Ocean', 'Building', 'Playground', 'Animal']
 adjectives = ['Running', 'Walking', 'Cycling', 'Sleeping', 'Eating']
