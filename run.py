@@ -55,9 +55,42 @@ print('//       |   |   |   |                                      ')
 print('======   |___|   |___|                                      ')
 
 def flower():
+print('                          ')
+print('                          ')
+print('                                  ')
+print('                                      ')
+print('')
+print('')
+
 def chocolate():
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+
 def kite():
-def goodbye():            
+print('                       /|\                     ')
+print('                      /_|_\                    ')
+print('                \     \ | /                    ')
+print('                 \     \|/                     ')
+print('                  \     |                      ')
+print('                   \ ___/                      ')
+
+def goodbye(): 
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+
+
+
+
+
+
 
 
 def select_set_of_words(key):
@@ -65,7 +98,7 @@ def select_set_of_words(key):
 
     for count, value in enumerate(items):
         print("{}: {}".format(count, value))
-
+print('')
     selection = -1
     valid_input = False
     item = None
