@@ -9,6 +9,7 @@ words = {
     'places': ['Farm', 'Beach', 'Work', 'School', 'City'],
     'weather': ['Sunny', 'Raining', 'Sleat', 'Windy', 'Snow', 'Stormy'],
     'animals': ['Dog', 'Cat', 'Goldfish', 'Hamster'],
+    'color': ['red', 'green', 'blue', 'orange', 'purple'],
     'birds': ['Robin', 'Blackbird', 'Crow', 'Goldfinch'],
     'proverb': ["Every cloud has a silver lining", "No news is good news"]
 }
@@ -33,6 +34,26 @@ def welcome():
  # kite class:
  # myself and{animal} were flying a {color} kite at beach when a {bird} flew into it causing it to fall to ground next to {people} writing proverb in the sand it was all a dream.
  # goodbye class:
+
+def cinema():
+print(' ======                                                    ')
+print('||                                                         ')
+print('||       .                                                 ')
+print('||             _____    ___    __ __                       ')
+print('||       |    |     |  |___|  |  |  |   / \|               ')
+print('||       |    |     |  |      |  |  |  |   |               ')
+print(' ======  |    |     |  |___   |  |  |   \ /|               ')
+
+
+def zoo():
+print('') 
+print('')
+print('')   
+print('')
+print('')
+print('')
+print('')
+
 
 
 def select_set_of_words(key):
