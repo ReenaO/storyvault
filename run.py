@@ -35,7 +35,7 @@ def welcome():
  # myself and{animal} were flying a {color} kite at beach when a {bird} flew into it causing it to fall to ground next to {people} writing proverb in the sand it was all a dream.
  # goodbye class:
 
-def cinema():
+def cinema():  
 print(' ======                                                    ')
 print('||                                                         ')
 print('||       .                                                 ')
@@ -46,14 +46,18 @@ print(' ======  |    |     |  |___   |  |  |   \ /|               ')
 
 
 def zoo():
-print('') 
-print('')
-print('')   
-print('')
-print('')
-print('')
-print('')
+print('======                                                      ') 
+print('    //                                                      ')
+print('   //                                                       ')   
+print('  //      ___     ___                                       ')
+print(' //      |   |   |   |                                      ')
+print('//       |   |   |   |                                      ')
+print('======   |___|   |___|                                      ')
 
+def flower():
+def chocolate():
+def kite():
+def goodbye():            
 
 
 def select_set_of_words(key):
