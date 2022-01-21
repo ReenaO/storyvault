@@ -111,13 +111,13 @@ def kite():
     print('                   \ ___/                      ')
 
 def goodbye(): 
-    print('')
-    print('')
-    print('')
-    print('')
-    print('')
-    print('')
-
+    print('_____                                                            ')
+    print('|                            |   |                               ')
+    print('|                            |   |                               ')
+    print('|   ___   ___     ___     ___|   | _            ___              ')
+    print('|    |   |   |   |   |  /    |   |/ \    \ /   |___|             ')
+    print('|    |   |   |   |   |  |    |   |   |    |    |                 ') 
+    print('|____|   |___|   |___|   \__/|   |\__/    |    |___              ')
 
 
 
