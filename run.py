@@ -3,7 +3,7 @@ words = {
     'adjective': ['Running', 'Walking', 'Cycling', 'Sleeping', 'Eating'],
     'person': ['Mother', 'Father', 'Sister', 'Brother', 'Friend', 'Husband'],
     'place': ['Farm', 'Beach', 'Work', 'School', 'City'],
-    'weather': ['Sunny', 'Raining', 'Sleat', 'Windy', 'Snow', 'Stormy'],
+    'weather': ['Sun', 'Raining', 'Sleat', 'Wind', 'Snow', 'Storm'],
     'animal': ['Dog', 'Cat', 'Goldfish', 'Hamster'],
     'color': ['red', 'green', 'blue', 'orange', 'purple'],
     'bird': ['Robin', 'Blackbird', 'Crow', 'Goldfinch'],
@@ -11,11 +11,26 @@ words = {
 }
 
 stories = {
-    'cinema': "{person}, {animals} and i went to drive in cinema at {places}. we could see {noun} in the distance and the {weather} there. A {bird} spend the entire film flying in front of {Color} screen. when film was over proverb appearered on screen and i woke up.",
-    'zoo': "I went to the zoo with {person} and animals. we were {adjective} by tiger habitat in the {color} {weather}. {bird} were flying around our heads.it was an enjoyable day.the announcer on intercom said {proverb} then i woke up.",
-    'flower': "I was {adjective} by flowers in the {place}. the flowers were {color} and had a lovely scent. a bird flew past  in the direction of the {noun} singing {proverb} and i woke up.",
-    'chocolate': "i was {adjective} and had chilli flavoured chocolate bar with {person}. We were at {place} and overlooking {noun}. The {color}{weather} was amazing. the chocolate wrapper had {proverb} written on it and i woke up.",
-    'kite': "myself and{animal} were flying a {color} kite at beach when a {bird} flew into it causing it to fall to ground next to {person} writing proverb in the sand it was all a dream.",
+    'cinema': "{person}, {animal} and I went to drive in cinema at {place}."
+    "We could see the {noun} in the distance and the {weather} there."
+    "A {bird} spend entire film flying in front of {color} screen."
+    "When the film was over the {proverb} appearered on screen and I woke up.",
+    'zoo': "I went to the zoo with my {person} and {animal}."
+    "We were {adjective} near tiger habitat in the {color} {weather}."
+    "A {bird} were flying around our heads.It was an enjoyable day."
+    "The announcer on intercom said {proverb} then I woke up.",
+    'flower': "I was {adjective} by flowers in the {place}."
+    "The flowers were {color} and had a lovely scent."
+    "A bird flew past in the direction of the {noun} singing {proverb}"
+    "and I woke up.",
+    'chocolate': "! was {adjective} and had chilli flavoured chocolate bar" 
+    " that I shared with my {person}."
+    "We were at {place} and over looking the {noun}."
+    "The {color} {weather} was amazing."
+    "The chocolate bar wrapper had {proverb} written on it and i woke up.",
+    'kite': "Myself and {animal} were flying a {color} kite at beach."
+    "When a {bird} flew into it causing it to fall to ground next"
+    "to my {person} writing {proverb} in the sand it was all a dream.",
 }
 
 
