@@ -1,3 +1,71 @@
+def welcome():
+    print(" \\            //            |                              ")
+    print("  \\          //             |                              ")
+    print("   \\        //     ____     |     ___    ___          ___  ")
+    print("    \\  /\  //     |    |    |    |      |   |  |\/|  |   | ")
+    print("     \\//\\//      |____|    |    |      |   |  |  |  |___| ")
+    print("      \/  \/       |____     |    |___   |___|  |  |  |___  ")
+
+
+def cinema():
+    print(' ======                                                    ')
+    print('||                                                         ')
+    print('||       .                                                 ')
+    print('||             _____    ___    __ __                       ')
+    print('||       |    |     |  |___|  |  |  |   /\|                ')
+    print('||       |    |     |  |      |  |  |  |  |                ')
+    print(' ======  |    |     |  |___   |  |  |   \/|                ')
+
+
+def zoo():
+    print('======                                                      ')
+    print('    //                                                      ')
+    print('   //                                                       ')
+    print('  //      ___     ___                                       ')
+    print(' //      |   |   |   |                                      ')
+    print('//       |   |   |   |                                      ')
+    print('======   |___|   |___|                                      ')
+
+
+def flower():
+    print('  ______                                                   ')
+    print(' |         |                                               ')
+    print(' |______   |                                               ')
+    print(' |         |    ___                   ___                  ')
+    print(' |         |   |   |   \         /  |___|   |/\            ')
+    print(' |         |   |   |    \   /\  /   |       |              ')
+    print(' |         |   |___|      \/  \/    |___    |              ')
+
+
+def chocolate():
+    print(' _____                                                     ')
+    print('|       |                           |         |            ')
+    print('|       |                           |       __|__          ')
+    print('|       |___    ___    ___    ___   |         |     ___    ')
+    print('|       |   |  |   |  |      |   |  |   /\|   |    |___|   ')
+    print('|       |   |  |   |  |      |   |  |  |  |   |    |       ')
+    print('|_____  |   |  |___|  |___   |___|  |   \/|   |    |___    ')
+
+
+def kite():
+    print('                       /|\                     ')
+    print('                      /_|_\                    ')
+    print('                \     \ | /                    ')
+    print('                 \     \|/                     ')
+    print('                  \     |                      ')
+    print('                   \ ___/                      ')
+
+
+def goodbye():
+    print('_____                                                            ')
+    print('|                            |   |                               ')
+    print('|                            |   |                               ')
+    print('|   ___   ___     ___     ___|   | _            ___              ')
+    print('|    |   |   |   |   |  /    |   |/ \    \ /   |___|             ')
+    print('|    |   |   |   |   |  |    |   |   |    |    |                 ')
+    print('|____|   |___|   |___|   \__/|   |\__/    |    |___              ')
+
+
 words = {
     'noun': ['Mountain', 'Ocean', 'Building', 'Playground', 'Animal'],
     'adjective': ['Running', 'Walking', 'Cycling', 'Sleeping', 'Eating'],
@@ -10,6 +78,24 @@ words = {
     'proverb': ["Every cloud has a silver lining", "No news is good news"],
 }
 
+# Dictionary to hold the extended configurations
+extended = {
+    'animal': {
+        'Dog': "Dog called Bluebell",
+        'Cat': "Cat called Tinkerbell",
+        'Goldfish': "Goldfish called Goldie",
+        'Hamster': "Hanster called Hammie"
+    },
+    'color': {
+        'red': "shiny red",
+        'green': "bottle green",
+        'blue': "bright blue",
+        'orange': "burnt orange",
+        'purple': "dark purple",
+    },
+}
+
+# Dict for the stories
 stories = {
     'cinema': "{person}, {animal} and I went to drive in cinema at {place}."
     "We could see the {noun} in the distance and the {weather} there."
@@ -33,72 +119,9 @@ stories = {
     "to my {person} writing {proverb} in the sand it was all a dream.",
 }
 
-banners = {
-  'welcome':
-print(" \\            //            |                              "),
-print("  \\          //             |                              "),
-print("   \\        //     ____     |     ___    ___          ___  "),
-print("    \\  /\  //     |    |    |    |      |   |  |\/|  |   | "),
-print("     \\//\\//      |____|    |    |      |   |  |  |  |___| "),
-print("      \/  \/       |____     |    |___   |___|  |  |  |___  "),
-
-'cinema()':
-print(" ======                                                    "),
-print("||                                                         "),
-print("||       .                                                 "),
-print("||             _____    ___    __ __                       "),
-print("||       |    |     |  |___|  |  |  |   / \|               "),
-print("||       |    |     |  |      |  |  |  |   |               "),
-print(" ======  |    |     |  |___   |  |  |   \ /|               "),
-
-'zoo()':
-print("======                                                      "),
-print("    //                                                      "),
-print("   //                                                       "),
-print("  //      ___     ___                                       "),
-print(" //      |   |   |   |                                      "),
-print("//       |   |   |   |                                      "),
-print("======   |___|   |___|                                      "),
-
- 'flower()':
-print("  ______                                                   "),
-print(" |         |                                               "),
-print(" |______   |                                               "),
-print(" |         |    ___                   ___                  "),
-print(" |         |   |   |     \        /  |__|    |/\           "),
-print(" |         |   |   |      \  /\  /   |       |             "),
-print(" |         |   |___|       \/  \/    |___    |             "),
-
-'chocolate()':
-print(" _____                                                     "),
-print("|       |                           |         |            "),
-print("|       |                           |       __|__          "),
-print("|       |___    ___    ___    ___   |         |     ___    "),
-print("|       |   |  |   |  |      |   |  |   /\|   |    |___|   "),
-print("|       |   |  |   |  |      |   |  |  |  |   |    |       "),
-print("|_____  |   |  |___|  |___   |___|  |   \/|   |    |___    "),
-
-'kite()':
-print("                       /|\                     "),
-print("                      /_|_\                    "),
-print("                \     \ | /                    "),
-print("                 \     \|/                     "),
-print("                  \     |                      "),
-print("                   \ ___/                      "),
-
-'goodbye()':
-print(" _____                                                         "),
-print("|                            |   |                             "),
-print("|                            |   |                             "),
-print("|   ___   ___     ___     ___|   | _            ___            "),
-print("|    |   |   |   |   |  /    |   |/ \    \ /   |___|           "),
-print("|    |   |   |   |   |  |    |   |   |    |    |               "),
-print("|____|   |___|   |___|   \__/|   |\__/    |    |___            "),
-}
-
-
 configuration = {
     'story': ['cinema', 'zoo', 'flower', 'chocolate', 'kite'],
+    'options': ['extended', 'short'],
     'titles': {
         'cinema': cinema,
         'zoo': zoo,
@@ -108,28 +131,23 @@ configuration = {
     }
 }
 
-if {'animal'} == 'Dog':
-    print("Dog called Bluebell")
-elif {'animal'} == 'Cat':
-    print("Cat called Tinkerbell") 
-elif {'animal'} == 'Goldfish':
-    print("Goldfish called Goldie")    
-elif {'animal'} == 'Hamster':
-    print("Hanster called Hammie")    
-
-class Welcome:
-    def welcome(self):
-        return self.welcome(banners)
 
 class StoryManager:
-    def __init__(self):
+    def __init__(self, select_extended=False):
         self.selection = {}
+        self.select_extended = select_extended
+        self.extended = False
 
     def select_story(self):
         return self.select_values('story', configuration)
 
     def print_story_title(self, story):
         configuration['titles'][story]()
+
+    def select_story_options(self):
+        selection = self.select_values('options', configuration)
+        self.extended = True if selection == 'extended' else False
+        return self.extended
 
     def select_values(self, key, dict_of_values=words):
         items = dict_of_values[key]
@@ -156,10 +174,19 @@ class StoryManager:
         story = self.select_story()
         print(story)
         self.print_story_title(story)
+        if self.select_extended:
+            self.select_story_options()
 
         self.selection = {}
         for k, _ in words.items():
             value = self.select_values(k)
+            # If extended is True the current value gets replaced 
+            # by its extended version if exists.
+            if self.extended is True:
+                for extended_key, _ in extended.items():
+                    if k == extended_key and value in extended[k].keys():
+                        value = extended[k][value]
+
             self.selection[k] = value
 
         self.print_story(story)
@@ -167,20 +194,19 @@ class StoryManager:
     def print_story(self, story):
         story_string = stories[story]
         print(f"{story_string}".format(**self.selection))
+    
+    def welcome(self):
+        welcome()
 
-    class goodbye:
-        def goodbye(self):
-          return self.goodbye(banners)
-
-
+    def goodbye(self):
+        goodbye()
 
 
 def main():
-    welcome.name
-    story_manager = StoryManager()
+    story_manager = StoryManager(select_extended=True)
+    story_manager.welcome()
     story_manager.start()
-    story_manager.banners()
-    goodbye
+    story_manager.goodbye()
 
 
 main()
