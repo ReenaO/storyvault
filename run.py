@@ -33,73 +33,68 @@ stories = {
     "to my {person} writing {proverb} in the sand it was all a dream.",
 }
 
+banners = {
+  'welcome':
+print(" \\            //            |                              "),
+print("  \\          //             |                              "),
+print("   \\        //     ____     |     ___    ___          ___  "),
+print("    \\  /\  //     |    |    |    |      |   |  |\/|  |   | "),
+print("     \\//\\//      |____|    |    |      |   |  |  |  |___| "),
+print("      \/  \/       |____     |    |___   |___|  |  |  |___  "),
 
-def welcome():
-    print(" \\            //            |                              ")
-    print("  \\          //             |                              ")
-    print("   \\        //     ____     |     ___    ___          ___  ")
-    print("    \\  /\  //     |    |    |    |      |   |  |\/|  |   | ")
-    print("     \\//\\//      |____|    |    |      |   |  |  |  |___| ")
-    print("      \/  \/       |____     |    |___   |___|  |  |  |___  ")
+'cinema()':
+print(" ======                                                    "),
+print("||                                                         "),
+print("||       .                                                 "),
+print("||             _____    ___    __ __                       "),
+print("||       |    |     |  |___|  |  |  |   / \|               "),
+print("||       |    |     |  |      |  |  |  |   |               "),
+print(" ======  |    |     |  |___   |  |  |   \ /|               "),
 
+'zoo()':
+print("======                                                      "),
+print("    //                                                      "),
+print("   //                                                       "),
+print("  //      ___     ___                                       "),
+print(" //      |   |   |   |                                      "),
+print("//       |   |   |   |                                      "),
+print("======   |___|   |___|                                      "),
 
-def cinema():
-    print(' ======                                                    ')
-    print('||                                                         ')
-    print('||       .                                                 ')
-    print('||             _____    ___    __ __                       ')
-    print('||       |    |     |  |___|  |  |  |   / \|               ')
-    print('||       |    |     |  |      |  |  |  |   |               ')
-    print(' ======  |    |     |  |___   |  |  |   \ /|               ')
+ 'flower()':
+print("  ______                                                   "),
+print(" |         |                                               "),
+print(" |______   |                                               "),
+print(" |         |    ___                   ___                  "),
+print(" |         |   |   |     \        /  |__|    |/\           "),
+print(" |         |   |   |      \  /\  /   |       |             "),
+print(" |         |   |___|       \/  \/    |___    |             "),
 
+'chocolate()':
+print(" _____                                                     "),
+print("|       |                           |         |            "),
+print("|       |                           |       __|__          "),
+print("|       |___    ___    ___    ___   |         |     ___    "),
+print("|       |   |  |   |  |      |   |  |   /\|   |    |___|   "),
+print("|       |   |  |   |  |      |   |  |  |  |   |    |       "),
+print("|_____  |   |  |___|  |___   |___|  |   \/|   |    |___    "),
 
-def zoo():
-    print('======                                                      ')
-    print('    //                                                      ')
-    print('   //                                                       ')
-    print('  //      ___     ___                                       ')
-    print(' //      |   |   |   |                                      ')
-    print('//       |   |   |   |                                      ')
-    print('======   |___|   |___|                                      ')
+'kite()':
+print("                       /|\                     "),
+print("                      /_|_\                    "),
+print("                \     \ | /                    "),
+print("                 \     \|/                     "),
+print("                  \     |                      "),
+print("                   \ ___/                      "),
 
-
-def flower():
-    print('  ______                                                   ')
-    print(' |         |                                               ')
-    print(' |______   |                                               ')
-    print(' |         |    ___                   ___                  ')
-    print(' |         |   |   |   \          /  |___|   |/\           ')
-    print(' |         |   |   |     \   /\  /   |       |             ')
-    print(' |         |   |___|       \/  \/    |___    |            ')
-
-
-def chocolate():
-    print(' _____                                                     ')
-    print('|       |                           |         |            ')
-    print('|       |                           |       __|__          ')
-    print('|       |___    ___    ___    ___   |         |     ___    ')
-    print('|       |   |  |   |  |      |   |  |   /\|   |    |___|   ')
-    print('|       |   |  |   |  |      |   |  |  |  |   |    |       ')
-    print('|_____  |   |  |___|  |___   |___|  |   \/|   |    |___    ')
-
-
-def kite():
-    print('                       /|\                     ')
-    print('                      /_|_\                    ')
-    print('                \     \ | /                    ')
-    print('                 \     \|/                     ')
-    print('                  \     |                      ')
-    print('                   \ ___/                      ')
-
-
-def goodbye():
-    print('_____                                                            ')
-    print('|                            |   |                               ')
-    print('|                            |   |                               ')
-    print('|   ___   ___     ___     ___|   | _            ___              ')
-    print('|    |   |   |   |   |  /    |   |/ \    \ /   |___|             ')
-    print('|    |   |   |   |   |  |    |   |   |    |    |                 ')
-    print('|____|   |___|   |___|   \__/|   |\__/    |    |___              ')
+'goodbye()':
+print(" _____                                                         "),
+print("|                            |   |                             "),
+print("|                            |   |                             "),
+print("|   ___   ___     ___     ___|   | _            ___            "),
+print("|    |   |   |   |   |  /    |   |/ \    \ /   |___|           "),
+print("|    |   |   |   |   |  |    |   |   |    |    |               "),
+print("|____|   |___|   |___|   \__/|   |\__/    |    |___            "),
+}
 
 
 configuration = {
@@ -113,6 +108,18 @@ configuration = {
     }
 }
 
+if {'animal'} == 'Dog':
+    print("Dog called Bluebell")
+elif {'animal'} == 'Cat':
+    print("Cat called Tinkerbell") 
+elif {'animal'} == 'Goldfish':
+    print("Goldfish called Goldie")    
+elif {'animal'} == 'Hamster':
+    print("Hanster called Hammie")    
+
+class Welcome:
+    def welcome(self):
+        return self.welcome(banners)
 
 class StoryManager:
     def __init__(self):
@@ -161,10 +168,19 @@ class StoryManager:
         story_string = stories[story]
         print(f"{story_string}".format(**self.selection))
 
+    class goodbye:
+        def goodbye(self):
+          return self.goodbye(banners)
+
+
+
 
 def main():
+    welcome.name
     story_manager = StoryManager()
     story_manager.start()
+    story_manager.banners()
+    goodbye
 
 
 main()
