@@ -194,7 +194,7 @@ class StoryManager:
     def print_story(self, story):
         story_string = stories[story]
         print(f"{story_string}".format(**self.selection))
-    
+          
     def welcome(self):
         welcome()
 
